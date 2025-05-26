@@ -1,0 +1,33 @@
+.nav-hover {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-hover:hover {
+    color: #28a745; /* Light green */
+    font-weight: 600;
+  }
+  
+  .nav-hover::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #28a745;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s;
+  }
+  
+  .nav-hover:hover::after {
+    width: 100%;
+  }
+ 
+
+  body {
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+    min-height: 100vh;
+  }
+  
+    
+   

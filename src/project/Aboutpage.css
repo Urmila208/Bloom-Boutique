@@ -1,0 +1,50 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 40px;
+    background-color: #fdfdfd;
+    min-height: 100vh;
+    flex-wrap: wrap;
+  }
+  
+  .about-content {
+    max-width: 600px;
+  }
+  
+  .about-content h1 {
+    font-size: 42px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-btn {
+    background-color: #0cb717;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .about-btn:hover {
+    background-color: #0ca713;
+  }
+  
+  .about-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  /* Remove old gradient */

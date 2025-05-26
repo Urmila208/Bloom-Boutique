@@ -1,0 +1,93 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+} */
+
+.box:hover {
+  width: 300px;
+}
+.valentine-box {
+  width: 100px;
+  height: 100px;
+  background: #d53f5b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: width 2s, height 2s;
+  margin: 0 auto;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.valentine-box:hover {
+  width: 300px;
+  height: 150px;
+}
+
+.valentine-text {
+  font-size: 14px;
+  opacity: 1;
+  transition: font-size 2s;
+}
+
+.valentine-box:hover .valentine-text {
+  font-size: 18px;
+}
+.valentine-row {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  gap: 20px;               /* space between boxes */
+  flex-wrap: wrap;         /* makes it responsive */
+  margin-top: 20px;
+}
+.valentine-message {
+  text-align: center;
+  font-size: 24px;
+  color: #e6005c;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.valentine-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* adds spacing between cards */
+  margin-top: 30px;
+}
+
+.valentine-box-card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+}
+
+.valentine-box-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.valentine-box-card .valentine-text {
+  background-color: #e6005c;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

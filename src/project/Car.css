@@ -1,0 +1,33 @@
+.carousel-container {
+    position: relative;
+  }
+  
+  .carousel-design-left,
+  .carousel-design-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.5); /* White with transparency */
+    z-index: 1;
+  }
+  
+  .carousel-design-left {
+    left: 0;
+    border-right: 10px solid rgba(0, 0, 0, 0.1); /* Decorative border */
+  }
+  
+  .carousel-design-right {
+    right: 0;
+    border-left: 10px solid rgba(0, 0, 0, 0.1); /* Decorative border */
+  }
+  
+  /* Optional: Add a subtle gradient effect */
+  .carousel-design-left {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  }
+  
+  .carousel-design-right {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  }
+  
